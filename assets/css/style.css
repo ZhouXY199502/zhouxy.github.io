@@ -1096,3 +1096,11 @@ section .container {
     transform: translateX(-50%);
   }
 }
+/* === Education logos === */
+.edu-logo{
+  max-height: 120px;   /* 统一高度 */
+  width: auto;         /* 等比例缩放 */
+  object-fit: contain; /* 防止被裁切 */
+  display: block;
+  margin: 0 auto;      /* 居中 */
+}
